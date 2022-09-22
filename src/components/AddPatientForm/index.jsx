@@ -13,7 +13,7 @@ import Swal from 'sweetalert2'
 
 import axios from 'axios';
 
-const API_HOST = process.env.NODE_ENV === 'production' ? "https://eclinichn-server.herokuapp.com/api/v1/"  : "http://localhost:8080/api/v1/";
+const API_HOST = process.env.NODE_ENV === 'production' ? "https://clinicworks-server-production.up.railway.app/api/v1/"  : "https://clinicworks-server-development.up.railway.app/api/v1/";
 
 
 const useStyles = makeStyles((theme) => ({
